@@ -1,0 +1,18 @@
+-- local lspconfig = require('lspconfig')
+-- lspconfig.rust_analyzer.setup {
+-- 	settings = {
+-- 		['rust-analyzer'] = {
+-- 			check = {
+-- 				command = 'clippy'
+-- 			},
+-- 			inlayHints = {
+-- 				tipeHints = {
+-- 					enable = true
+-- 				},
+-- 				parameterHints = {enable = true}
+-- 			}
+-- 		}
+-- 	}
+-- }
+-- 
+-- vim.g.zig_fmt_autosave = 0

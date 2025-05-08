@@ -14,8 +14,19 @@ vim.opt.hlsearch = true
 vim.opt.scrolloff = 8
 
 vim.g.mapleader = " "
--- vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "80"
 
-
+vim.opt.wrap = false
 
 vim.g.rust_recommended_style = 0
+
+-- vim.opt.list = true
+
+-- vim.opt.guicursor = 'n-i:ver25'
+
+vim.filetype.add({
+	extension = { mm = 'mm' }
+})
+
+
+vim.opt.foldenable = false
