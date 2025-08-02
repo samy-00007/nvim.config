@@ -20,13 +20,21 @@ vim.opt.wrap = false
 
 vim.g.rust_recommended_style = 0
 
+vim.opt.signcolumn = "yes"
+
 -- vim.opt.list = true
 
 -- vim.opt.guicursor = 'n-i:ver25'
 
 vim.filetype.add({
-	extension = { mm = 'mm' }
+	extension = { 
+		mm = 'mm',
+		tbl = 'tbl'
+	}
 })
 
 
 vim.opt.foldenable = false
+
+
+vim.opt.clipboard = "unnamedplus"

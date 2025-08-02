@@ -109,3 +109,13 @@ cmp.setup({
     end,
   },
 })
+
+
+vim.diagnostic.config({
+  virtual_text = true,
+  float = {
+    scope = "cursor",
+  },
+  severity_sort = true,
+})
+
